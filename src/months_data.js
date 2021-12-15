@@ -1,4 +1,4 @@
-export const months = [
+export const allMonths = [
   { name: "January", id: 1 },
   { name: "February", id: 2 },
   { name: "March", id: 3 },
