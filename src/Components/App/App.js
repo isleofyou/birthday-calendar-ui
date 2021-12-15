@@ -11,8 +11,8 @@ function App() {
         <Form />
       </div>
       <div className='bday-container'>
-        {months.forEach((month) => {
-          return <Card month={month.name}/>
+        {months.map((month) => {
+          return <Card month={month.name} key={month.id}/>
         })}
       </div>
     </div>

@@ -10,7 +10,7 @@ class Form extends Component {
 
     render () {
       return (
-          <form className="addBirthday">
+          <form className="add-birthday">
               <label>
                   Name:
                   <input type="text" name="name" />
